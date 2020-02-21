@@ -1,0 +1,294 @@
+body{
+	background: #FCFCFC;
+}
+
+.container{
+	max-width: 95%;
+	max-width: 1920px;
+	margin: auto;
+}
+
+/* navigation */
+.nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 75px;
+	background: white;
+}
+
+.menu-list{
+	margin-right: auto;
+	margin-left: 360px;
+	display: flex; 
+}
+
+.main-menu-link{
+	display: flex;
+	flex-direction: column;
+}
+
+.link-line{
+	background: #FFB61E;
+	height: 2px;
+	width: 111px;
+	margin-top: 10px;
+	margin-left: 69px;
+}
+
+.menu-link{
+	padding-left: 74px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22.5px;
+	line-height: 150%;
+	text-decoration: none;
+	color: #2E291E;
+}
+
+.menu-link1{
+	opacity: 0.5;
+}
+
+.menu-number{
+	color: black;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22.5px;
+	line-height: 150%;
+	margin-bottom: 10px;
+}
+
+.menu-number{
+	margin-right: 71px;
+}
+
+/* main */
+.main{
+	background: url('../image/map-bg.png');
+	background-repeat: no-repeat;
+	width: 1903px;
+	height: 1010px;
+}
+
+.main-block{
+	width: 869px;
+	height: 880px;
+	background: #FFFFFF;
+	box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.05);
+	border-radius: 5px;
+	position: absolute;
+	top: 150px;
+
+}
+
+.main-blocks{
+	display: flex;
+	margin-left: 84px;
+}
+
+.main-title{
+	display: flex;
+	flex-direction: column;
+	padding-top: 93px;
+	margin-left: 81px;
+}
+
+.title-block{
+	display: flex;
+}
+
+.title{
+	margin-left: 42px;
+	font-family: Spectral;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 43.95px;
+	line-height: 67px;
+	display: flex;
+	align-items: center;
+	color: #000000;
+}
+
+.main-discription{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	color: #392D13;
+	opacity: 0.5;
+	margin-left: 80px;
+}
+
+input[type="text"]{
+	width: 384px;
+	height: 70px;
+	background: #FFFFFF;
+	border: 2px solid rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	color: #000000;
+	opacity: 0.3;
+	margin-left: 160px;
+	padding-left: 43px;
+}
+
+.main-subtitle{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 14.4px;
+	line-height: 150%;
+	color: #000000;
+	margin-left: 206px;
+	margin-bottom: 12px;
+}
+
+.main-button{
+	margin-top: 80px;
+}
+
+.button{
+	background: #FFB61E;
+	border-radius: 5px;
+	color: #fff;
+	border: none;
+	padding: 20px 110px;
+	text-decoration: none;
+	display: inline-block;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 150%;
+	margin-left: 160px;
+	margin-top: 154px;
+}
+
+.map-arrow{
+	position: absolute;
+	left: 1394px;
+	top: 615px;
+}
+/* footer */
+
+.footer{
+	display: flex;
+}
+
+.footer-links{
+	display: flex;
+	margin-left: 162px;
+}
+
+.main-link{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 22.5px;
+	line-height: 150%;
+	color: #000000;
+	margin-top: 25px;
+}
+
+.footer-discription{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22.5px;
+	line-height: 150%;
+	color: #392D13;
+	opacity: 0.7;
+	margin-top: 20px;
+	text-decoration: none;
+}
+
+.main-link1{
+	margin-top: 54px;
+}
+
+.footer-link{
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-link1{
+	margin-left: 75px;
+}
+
+.footer-contacts{
+	margin-left: 201px;
+	margin-top: 50px;
+}
+
+.footer-contact{
+	display: flex;
+	align-items: center;
+	margin-bottom: 48px;
+}
+
+.footer-adress{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22.5px;
+	line-height: 150%;
+	margin-left: 40px;
+}
+
+.block-map{
+	width: 546px;
+	height: 236px;
+	background: #fff;
+	margin-bottom: 48px;
+}
+
+.map-image{
+	display: flex;
+	margin: auto;
+	padding-top: 75px;
+}
+
+.footer{
+	background: #FFFBF5;
+}
+
+.footer-block{
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-feedback{
+	margin-left: 162px;
+	margin-top: 55px;
+}
+
+.footer-social{
+	margin-left: 35px;
+}
+
+.footer-social:first-child{
+	margin-left: 0;
+}
+
+.footer-copyright{
+	margin-left: 900px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	color: #000000;
+	opacity: 0.2;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
